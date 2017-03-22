@@ -1,0 +1,22 @@
+{
+  "name": "lambda-pdf-thumbnail",
+  "version": "0.0.0",
+  "description": "Amazon Lambda function to make thumnail of first page of pdf.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint *.js && jasmine"
+  },
+  "dependencies": {
+    "async": "~1.4.2",
+    "aws-sdk": "~2.1.45",
+    "tmp": "0.0.27"
+  },
+  "devDependencies": {
+    "node-lambda": "~0.6.1",
+    "jasmine": "~2.3.2",
+    "buffer-equal": "0.0.1",
+    "s3rver": "0.0.5",
+    "async": "~1.4.2",
+    "rimraf": "~2.4.2"
+  }
+}
